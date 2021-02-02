@@ -107,10 +107,7 @@ class Logic < Layout
   end
 end
 
-class Player < Logic
-end
-
-class Computer < Player
+class Computer < Logic
   def computer_play
     i = 1
     n = initial_guess
